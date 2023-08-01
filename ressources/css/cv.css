@@ -131,23 +131,7 @@ ul .reseaux_bloc {
 	height: 35px;
 }
 
-.box_info .langue {
+.langue {
 	position: relative;
-	top: -8px;
-	right: 98%;
-	height: 35px;
-	width: 35px;
-}
-
-.box_info .niveau {
-	position: relative;
-	left: 15%;
-}
-
-.box_info .etoile {
-	position: relative;
-	right: 85%;
-	top: -4px;
-	height: 25px;
-	width: 25px;
+	left: -1%;
 }

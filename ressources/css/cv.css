@@ -41,6 +41,11 @@ hr {
 	z-index: -10;
 }
 
+.langue {
+	position: relative;
+	left: -1%;
+	width: 102%;
+}
 
 .exp_pro ul {
 	list-style-type: none;
@@ -129,10 +134,4 @@ ul .reseaux_bloc {
 
 .reseaux img {
 	height: 35px;
-}
-
-.langue {
-	position: relative;
-	left: -1%;
-	width: 102%;
 }

@@ -130,3 +130,22 @@ ul .reseaux_bloc {
 .reseaux img {
 	height: 35px;
 }
+
+.box_info .langue {
+	position: relative;
+	top: -8px;
+	right: 95%;
+	height: 35px;
+}
+
+.box_info .niveau {
+	position: relative;
+	left: 30%;
+}
+
+.box_info .etoile {
+	position: relative;
+	right: 70%;
+	top: -4px;
+	height: 25px;
+}

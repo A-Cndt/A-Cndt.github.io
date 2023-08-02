@@ -7,7 +7,6 @@
 		<link rel="stylesheet" href="../ressources/css/menu.css">
 		<link rel="stylesheet" href="../ressources/css/contact.css">
 		<script src="../ressources/js/contact.js"></script>
-		<script src="https://smtpjs.com/v3/smtp.js"></script>
 	</head>
 	
 	<body>
@@ -35,13 +34,18 @@
 			</ul>
 		</nav>
 
-		<nav>
+		<nav class="content">
 			<h1>Me contacter</h1>
 			<div class="intro">
 				<p>Pour me contacter par mail, veuillez remplir le formulaire ci-dessous ou directement à <a class="link" href="mailto:alexandre.condette@spacebel.fr">alexandre.condette@spacebel.fr</a></p>
 			</div>
 
-			<h2>Formulaire de contact</h2>
+			<ul class="images">
+				<li><h2>Formulaire de contact</h2></li>
+				<li><img class="img_mail" src="../ressources/img/email.png"></li>
+				<li><img class="img_mail" src="../ressources/img/mobile.png"></li>
+			</ul>
+			
 			<form name="formContact" action="mailto:alexandre.condette@spacebel.fr" enctype="text/plain" onsubmit="return validateForm()" method="post">
 				<table class="form_">
 					<tr>

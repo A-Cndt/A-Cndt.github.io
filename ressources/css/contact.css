@@ -1,20 +1,25 @@
-html {
+body {
     font-family: arial;
 }
 
+.content {
+    position: absolute;
+    padding-left: 7%;
+    padding-top: 1%;
+    top: 0;
+    z-index: -1;
+}
+
 h1 {
-    font-family: arial;
-    padding-left: 5%;
-    padding-right: 5%;
     font-size: 50px;
 	color: #1f108b;
 	font-weight: bold;
 }
 
 h2 {
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-top: 5%;
+    color: #1f108b;
+	font-weight: bold;
+    padding-top: 15px;
 }
 
 .link {
@@ -23,14 +28,9 @@ h2 {
 	color: #2c82c9;
 }
 
-.intro {
-    padding-left: 5%;
-}
 
 .form_ {
-    margin-left: 5%;
-    width: 50%;
-
+    width: 100%;
 }
 
 .form_ td {
@@ -91,3 +91,18 @@ h2 {
     color: #d8000c;
     background-color: #ffbaba;
 }
+
+.img_mail {
+    position: relative;
+    width: 50px;
+    padding-left: 30%;
+    padding-top: 21px;
+}
+
+.images {
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    padding-right: 25px;
+}
+

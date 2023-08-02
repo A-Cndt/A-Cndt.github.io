@@ -5,6 +5,9 @@
 		<title>Alexandre Condette</title>
 		<link rel="stylesheet" href="../ressources/css/main.css">
 		<link rel="stylesheet" href="../ressources/css/menu.css">
+		<link rel="stylesheet" href="../ressources/css/contact.css">
+		<script src="../ressources/js/contact.js"></script>
+		<script src="https://smtpjs.com/v3/smtp.js"></script>
 	</head>
 	
 	<body>
@@ -30,6 +33,53 @@
 					<a href="./contact.html" target="_self">Me contacter</a>
 				</li>
 			</ul>
+		</nav>
+
+		<nav>
+			<h1>Me contacter</h1>
+			<div class="intro">
+				<p>Pour me contacter par mail, veuillez remplir le formulaire ci-dessous ou directement à <a class="link" href="mailto:alexandre.condette@spacebel.fr">alexandre.condette@spacebel.fr</a></p>
+			</div>
+
+			<h2>Formulaire de contact</h2>
+			<form name="formContact" action="mailto:alexandre.condette@spacebel.fr" enctype="text/plain" onsubmit="return validateForm()" method="post">
+				<table class="form_">
+					<tr>
+						<td>
+							<label>Votre nom <span class="required">*</span></label>
+						</td>
+						<td>
+							<input type="text" name="name" class=""long/>
+							<span class="error" id="errorname"></span>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label>Votre adresse e-mail <span class="required">*</span></label>
+						</td>
+						<td>
+							<input type="email" name="email" class="long"/>
+							<span class="error" id="erroremail"></span>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label>Message <span class="required">*</span></label>
+						</td>
+						<td>
+							<textarea name="message" class="long field-textarea"></textarea>
+							<span class="error" id="errormsg"></span>
+						</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td>
+							<input type="submit" value="Envoyer mon message">
+							<input type="reset" value="Reinitialiser">
+						</td>
+					</tr>
+				</table>
+			</form>
 		</nav>
 	</body>
 	

@@ -8,7 +8,7 @@ function validateForm()
    
     if (name.value == "")                                  
     { 
-        document.getElementById('errorname').innerHTML="Veuillez entrez un nom valide";  
+        document.getElementById('errorname').innerHTML="Veuillez entrer un nom valide";  
         name.focus(); 
         return false; 
     }else{
@@ -17,7 +17,7 @@ function validateForm()
        
     if (email.value == "")                                   
     { 
-        document.getElementById('erroremail').innerHTML="Veuillez entrez une adresse mail valide"; 
+        document.getElementById('erroremail').innerHTML="Veuillez entrer une adresse mail valide"; 
         email.focus(); 
         return false; 
     }else{
@@ -26,21 +26,21 @@ function validateForm()
    
     if (email.value.indexOf("@", 0) < 0)                 
     { 
-        document.getElementById('erroremail').innerHTML="Veuillez entrez une adresse mail valide"; 
+        document.getElementById('erroremail').innerHTML="Veuillez entrer une adresse mail valide"; 
         email.focus(); 
         return false; 
     } 
    
     if (email.value.indexOf(".", 0) < 0)                 
     { 
-        document.getElementById('erroremail').innerHTML="Veuillez entrez une adresse mail valide"; 
+        document.getElementById('erroremail').innerHTML="Veuillez entrer une adresse mail valide"; 
         email.focus(); 
         return false; 
     } 
    
     if (message.value == "")                           
     {
-        document.getElementById('errormsg').innerHTML="Veuillez entrez un message valide"; 
+        document.getElementById('errormsg').innerHTML="Veuillez entrer un message valide"; 
         message.focus(); 
         return false; 
     }else{

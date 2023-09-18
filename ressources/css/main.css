@@ -5,7 +5,7 @@ body {
 .content {
     position: absolute;
     padding-left: 7%;
-    padding-top: 1%;
+    padding-top: 10%;
     top: 0;
     z-index: -1;
 }
@@ -15,3 +15,78 @@ body {
 	color: #1f108b;
 	font-weight: bold;
 }
+
+.rubrique {
+	font-size: 25px; 
+	color: #1f108b;
+	font-weight: bold;
+	line-height: 50px;
+}
+
+.cv_css {
+	background-color: antiquewhite;
+	box-shadow: 7px 7px 7px #555;
+	width: 200px;
+	height: 300px;
+	z-index: -200;
+	border-bottom-right-radius: 25px;
+	border-top-right-radius: 25px;
+	border: 1px solid black;
+}
+
+.cover {
+	position: relative;
+	background-color: #6d071a;
+	box-shadow: 7px 7px 7px #555;
+	width: 180px;
+	height: 300px;
+	z-index: 10;
+	top: -301px;
+	border-bottom-right-radius: 25px;
+	border-top-right-radius: 25px;
+	border: 1px solid black;
+}
+.bookpage {
+	background-color: antiquewhite;
+	box-shadow: 7px 7px 7px #555;
+	width: 190px;
+	height: 300px;
+	top: -300px;
+	z-index: 0;
+	border-bottom-right-radius: 25px;
+	border-top-right-radius: 25px;
+	border: 1px solid black;
+}
+
+.eye {
+	margin: 0px;
+	width: 39px;
+	height: 39px;
+	border: solid 1px #000;
+	border-radius:  75% 15%;
+	position: relative;
+	top: 130px;
+	left: 100px;
+	transform: rotate(45deg);
+  }
+  .eye:before {
+	content: '';
+	display: block;
+	position: absolute;
+	width: 15px;
+	height: 15px;
+	border: solid 1px #000;
+	border-radius: 50%;
+	left: 3px;
+	top: 3px;
+  }
+
+  .cover_text {
+	position: relative;
+	z-index: 500;
+	color: #fff;
+	top: 100px;
+	left: 35px;
+	text-decoration: none;
+	font-size: 25px;
+  }
